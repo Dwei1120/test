@@ -17,7 +17,7 @@
                 android:layout_centerHorizontal="true"
                 android:layout_marginBottom="20dp"
                 android:layout_marginTop="20dp"
-                android:text="发现新版本"
+                android:text="版本信息发布"
                 android:textColor="@color/color_FFFFFF"
                 android:textSize="20sp" />
 
@@ -44,7 +44,7 @@
                 android:layout_centerHorizontal="true"
                 android:layout_marginLeft="32dp"
                 android:layout_marginRight="32dp"
-                android:text="更新日志"
+                android:text="信息内容"
                 android:textColor="@color/color_FFFFFF"
                 android:textSize="16sp" />
 
