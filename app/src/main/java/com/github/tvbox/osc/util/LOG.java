@@ -35,6 +35,14 @@ public class LOG {
     public static void e(Object... msgs){
         LogPrint(Log.ERROR, FormatMsg(msgs));
     }
+    public static void printStackTrace(Exception ex){
+        e(ex);
+        ex.printStackTrace();
+    }
+    public static void printStackTrace(Throwable th){
+        e(th);
+        th.printStackTrace();
+    }
     public static void OpenSaveLog(){
         LOG.i("LOG", "打开日志存储系统");
         try {
@@ -97,7 +105,7 @@ public class LOG {
         else if (logType == Log.WARN)
             Log.w(TAG, msg);
         else if (logType == Log.DEBUG)
-            Log.e(TAG, msg);
+            Log.d(TAG, msg);
         else if (logType == Log.INFO)
             Log.i(TAG, msg);
         else
