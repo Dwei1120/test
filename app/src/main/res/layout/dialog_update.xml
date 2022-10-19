@@ -13,9 +13,8 @@
         <RelativeLayout
             android:layout_width="310dp"
             android:layout_height="wrap_content"
-            android:radius="@dimen/vs_5"
             android:layout_centerInParent="true"
-            android:background="@color/color_32364E"
+            android:background="@drawable/shape_dialog_update"
             android:paddingBottom="20dp">
 
             <TextView
