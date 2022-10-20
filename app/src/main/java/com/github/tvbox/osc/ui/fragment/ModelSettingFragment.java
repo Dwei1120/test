@@ -145,7 +145,7 @@ public class ModelSettingFragment extends BaseLazyFragment {
             @Override
             public void onClick(View v) {
                 FastClickCheckUtil.check(v);
-                 AboutDialog dialog = new AboutDialog(mActivity);
+                 BackupDialog dialog = new BackupDialog(mActivity);
                  dialog.show();
             }
         });
