@@ -149,13 +149,22 @@ public class ModelSettingFragment extends BaseLazyFragment {
                  dialog.show();
             }
         });
-        findViewById(R.id.llAbout).setOnClickListener(new View.OnClickListener() {
+        findViewById(R.id.llUpdate).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 FastClickCheckUtil.check(v);
                 //AboutDialog dialog = new AboutDialog(mActivity);
                 //dialog.show();
                 UpdateDialog.checkUpdate(mActivity, false);
+            }
+        });
+        findViewById(R.id.llAbout).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                FastClickCheckUtil.check(v);
+                AboutDialog dialog = new AboutDialog(mActivity);
+                dialog.show();
+                //UpdateDialog.checkUpdate(mActivity, false);
             }
         });
         findViewById(R.id.llWp).setOnClickListener(new View.OnClickListener() {
