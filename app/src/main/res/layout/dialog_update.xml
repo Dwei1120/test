@@ -6,7 +6,7 @@
      <androidx.core.widget.NestedScrollView
         android:layout_width="310dp"
         android:layout_height="match_parent"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="20dp"
         android:fillViewport="true"
         android:overScrollMode="never">   
         
@@ -60,7 +60,6 @@
                 android:layout_width="match_parent"
                 android:layout_height="35dp"
                 android:layout_below="@+id/msg_tv"
-                android:background="#003460"
                 android:layout_marginTop="30dp"
                 android:orientation="horizontal">
 
@@ -71,8 +70,7 @@
                     android:layout_marginLeft="20dp"
                     android:layout_marginRight="20dp"
                     android:layout_weight="1"
-                    android:background="#003460"
-                    android:layout_marginTop="20dp"
+                    android:background="#509296"
                     android:gravity="center"
                     android:text="软件更新"
                     android:textColor="@color/color_FFFFFF"
@@ -84,8 +82,7 @@
                 android:layout_height="35dp"
                 android:layout_marginRight="20dp"
                 android:layout_weight="1"
-                android:background="#003460"
-                android:layout_marginTop="20dp"
+                android:background="#509296"
                 android:gravity="center"
                 android:text="返回主页"
                 android:textColor="@color/color_FFFFFF"
