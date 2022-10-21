@@ -6,7 +6,7 @@
      <androidx.core.widget.NestedScrollView
         android:layout_width="310dp"
         android:layout_height="match_parent"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="10dp"
         android:fillViewport="true"
         android:overScrollMode="never">   
         
@@ -15,7 +15,7 @@
             android:layout_height="wrap_content"
             android:layout_centerInParent="true"
             android:background="@drawable/shape_dialog_update"
-            android:paddingBottom="20dp">
+            android:paddingBottom="10dp">
 
             <TextView
                 android:id="@+id/title"
