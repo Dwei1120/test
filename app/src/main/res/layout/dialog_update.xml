@@ -12,13 +12,11 @@
         
         <RelativeLayout
             android:layout_width="310dp"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:layout_centerInParent="true"
             android:background="@drawable/shape_dialog_update"
             android:paddingBottom="10dp">
-            android:layout_alignBottom="@id/msg_tv"
-            android:layout_gravity="center_horizontal"
-            android:layout_marginBottom="-30dp"
+
 
             <TextView
                 android:id="@+id/title"
