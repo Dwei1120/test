@@ -16,6 +16,9 @@
             android:layout_centerInParent="true"
             android:background="@drawable/shape_dialog_update"
             android:paddingBottom="10dp">
+            android:layout_alignBottom="@id/msg_tv"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="-30dp"
 
             <TextView
                 android:id="@+id/title"
